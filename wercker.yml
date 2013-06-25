@@ -1,0 +1,3 @@
+box: wercker/ruby
+services:
+  - wercker/postgresql
