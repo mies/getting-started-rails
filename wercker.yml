@@ -4,5 +4,5 @@ services:
 build:
   steps:
     - bundle-install
-    - rails-database-yml
-          service: wercker/postgresql
+    - rails-database-yml:
+        service: wercker/postgresql
